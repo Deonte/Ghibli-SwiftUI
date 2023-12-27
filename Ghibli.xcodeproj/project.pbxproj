@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FD9629312B3BBE49001DA412 /* Film.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9629302B3BBE49001DA412 /* Film.swift */; };
+		FD9629352B3BC0DE001DA412 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9629342B3BC0DE001DA412 /* APIService.swift */; };
+		FD9629382B3BC67A001DA412 /* FilmListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9629372B3BC67A001DA412 /* FilmListViewModel.swift */; };
 		FDE2C57C2B39229A00292DD9 /* GhibliApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE2C57B2B39229A00292DD9 /* GhibliApp.swift */; };
 		FDE2C5822B39229B00292DD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDE2C5812B39229B00292DD9 /* Assets.xcassets */; };
 		FDE2C5862B39229B00292DD9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDE2C5852B39229B00292DD9 /* Preview Assets.xcassets */; };
@@ -15,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FD9629302B3BBE49001DA412 /* Film.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Film.swift; sourceTree = "<group>"; };
+		FD9629342B3BC0DE001DA412 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		FD9629372B3BC67A001DA412 /* FilmListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmListViewModel.swift; sourceTree = "<group>"; };
 		FDE2C5782B39229A00292DD9 /* Ghibli.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ghibli.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDE2C57B2B39229A00292DD9 /* GhibliApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GhibliApp.swift; sourceTree = "<group>"; };
 		FDE2C5812B39229B00292DD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -35,6 +41,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FD9629322B3BC086001DA412 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				FD9629332B3BC09A001DA412 /* Networking */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		FD9629332B3BC09A001DA412 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				FD9629342B3BC0DE001DA412 /* APIService.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		FD9629362B3BC65E001DA412 /* Film List */ = {
+			isa = PBXGroup;
+			children = (
+				FDE2C5912B39262B00292DD9 /* FilmListView.swift */,
+				FD9629372B3BC67A001DA412 /* FilmListViewModel.swift */,
+			);
+			path = "Film List";
+			sourceTree = "<group>";
+		};
 		FDE2C56F2B39229A00292DD9 = {
 			isa = PBXGroup;
 			children = (
@@ -54,6 +85,7 @@
 		FDE2C57A2B39229A00292DD9 /* Ghibli */ = {
 			isa = PBXGroup;
 			children = (
+				FD9629322B3BC086001DA412 /* Utils */,
 				FDE2C58E2B3922F200292DD9 /* App */,
 				FDE2C5902B39231600292DD9 /* Model */,
 				FDE2C5942B39273900292DD9 /* Views */,
@@ -93,6 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				FDE2C58F2B39230700292DD9 /* Data */,
+				FD9629302B3BBE49001DA412 /* Film.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -100,7 +133,7 @@
 		FDE2C5932B39272300292DD9 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
-				FDE2C5912B39262B00292DD9 /* FilmListView.swift */,
+				FD9629362B3BC65E001DA412 /* Film List */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -184,7 +217,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				FDE2C5922B39262B00292DD9 /* FilmListView.swift in Sources */,
+				FD9629312B3BBE49001DA412 /* Film.swift in Sources */,
+				FD9629352B3BC0DE001DA412 /* APIService.swift in Sources */,
 				FDE2C57C2B39229A00292DD9 /* GhibliApp.swift in Sources */,
+				FD9629382B3BC67A001DA412 /* FilmListViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
