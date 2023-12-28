@@ -10,6 +10,7 @@
 		FD9629312B3BBE49001DA412 /* Film.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9629302B3BBE49001DA412 /* Film.swift */; };
 		FD9629352B3BC0DE001DA412 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9629342B3BC0DE001DA412 /* APIService.swift */; };
 		FD9629382B3BC67A001DA412 /* FilmListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9629372B3BC67A001DA412 /* FilmListViewModel.swift */; };
+		FD96293C2B3D12E4001DA412 /* FilmCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD96293B2B3D12E4001DA412 /* FilmCell.swift */; };
 		FDE2C57C2B39229A00292DD9 /* GhibliApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE2C57B2B39229A00292DD9 /* GhibliApp.swift */; };
 		FDE2C5822B39229B00292DD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDE2C5812B39229B00292DD9 /* Assets.xcassets */; };
 		FDE2C5862B39229B00292DD9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDE2C5852B39229B00292DD9 /* Preview Assets.xcassets */; };
@@ -21,6 +22,7 @@
 		FD9629302B3BBE49001DA412 /* Film.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Film.swift; sourceTree = "<group>"; };
 		FD9629342B3BC0DE001DA412 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
 		FD9629372B3BC67A001DA412 /* FilmListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmListViewModel.swift; sourceTree = "<group>"; };
+		FD96293B2B3D12E4001DA412 /* FilmCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmCell.swift; sourceTree = "<group>"; };
 		FDE2C5782B39229A00292DD9 /* Ghibli.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ghibli.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDE2C57B2B39229A00292DD9 /* GhibliApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GhibliApp.swift; sourceTree = "<group>"; };
 		FDE2C5812B39229B00292DD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -141,6 +143,7 @@
 		FDE2C5942B39273900292DD9 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				FD96293B2B3D12E4001DA412 /* FilmCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -219,6 +222,7 @@
 				FDE2C5922B39262B00292DD9 /* FilmListView.swift in Sources */,
 				FD9629312B3BBE49001DA412 /* Film.swift in Sources */,
 				FD9629352B3BC0DE001DA412 /* APIService.swift in Sources */,
+				FD96293C2B3D12E4001DA412 /* FilmCell.swift in Sources */,
 				FDE2C57C2B39229A00292DD9 /* GhibliApp.swift in Sources */,
 				FD9629382B3BC67A001DA412 /* FilmListViewModel.swift in Sources */,
 			);

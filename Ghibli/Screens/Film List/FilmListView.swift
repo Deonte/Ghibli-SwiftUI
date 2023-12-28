@@ -12,8 +12,8 @@ struct FilmListView: View {
     
     var body: some View {
         VStack {
-            ForEach(viewModel.films) { film in
-                Text(film.title)
+            List(viewModel.films) { film in
+                FilmCell(film: film)
             }
         }
         .task {
