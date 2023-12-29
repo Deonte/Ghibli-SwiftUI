@@ -19,9 +19,12 @@ struct FilmListView: View {
         .task {
             await viewModel.getFilms()
         }
+        .navigationTitle("Studio Ghibli")
     }
 }
 
 #Preview {
-    FilmListView()
+    NavigationStack {
+        FilmListView()
+    }
 }
